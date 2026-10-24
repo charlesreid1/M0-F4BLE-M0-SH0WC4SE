@@ -978,13 +978,6 @@ function renderGlobe(now){
       // clouds & shadow
       var cd=0, ds=0;
       if(cldA&&cAl>0){
-        var cuf=uf*0.5;
-        var cvi=(vf*0.5)|0; if(cvi>255)cvi=255;
-        var crow=cvi<<9;
-        var d1=cldA[crow|(((cuf+tA)|0]&511)];
-        d1=0; // placeholder (replaced below)
-      }
-      if(cldA&&cAl>0){
         var cuf2=uf*0.5;
         var cvi2=(vf*0.5)|0; if(cvi2>255)cvi2=255;
         var crow2=cvi2<<9;
